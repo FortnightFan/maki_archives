@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/maki_archives/static/css/main.f855e6bc.css",
+    "main.js": "/maki_archives/static/js/main.ace50530.js",
+    "static/js/453.5c315e99.chunk.js": "/maki_archives/static/js/453.5c315e99.chunk.js",
+    "static/media/logo.svg": "/maki_archives/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/maki_archives/index.html",
+    "main.f855e6bc.css.map": "/maki_archives/static/css/main.f855e6bc.css.map",
+    "main.ace50530.js.map": "/maki_archives/static/js/main.ace50530.js.map",
+    "453.5c315e99.chunk.js.map": "/maki_archives/static/js/453.5c315e99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ace50530.js"
+  ]
+}
