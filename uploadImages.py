@@ -22,11 +22,13 @@ current_os = platform.system()
 if current_os == "Windows":
     source_path = "C:/Program Files (x86)/Steam/userdata/166532502/760/remote"
     destination_path = "public/archive/steam_screenshots"
-
-# try:
-#     copy_all(source_path, destination_path)
-#     print(f"All files and directories copied from '{source_path}' to '{destination_path}'.")
-# except ValueError as e:
-#     print(e)
-# except Exception as e:
-#     print(f"An error occurred: {e}")
+elif current_os == "Linux":
+    source_path = "/home/deck/local/share/Steam/userdata/166532502/760/remote"
+    destination_path = "public/archive/steam_screenshots"
+try:
+    copy_all(source_path, destination_path)
+    print(f"All files and directories copied from '{source_path}' to '{destination_path}'.")
+except ValueError as e:
+    print(e)
+except Exception as e:
+    print(f"An error occurred: {e}")
